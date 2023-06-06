@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    .all-card {
+      position: relative;
+    }
+
+    .hide {
+      display: none;
+    }
+
+    .active {
+      background: linear-gradient(45deg, rgb(254, 159, 159), rgb(253, 61, 61));
+      border: 1px solid rgb(252, 161, 161);
+      padding: .3rem 1rem;
+      font-weight: 500;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      border-radius: 50px;
+      margin: 1rem 0;
+    }
+    .tick{
+
+      border-radius: 1rem;
+      box-shadow: 0 0 .4rem rgba(128, 128, 250, 0.678);
+      border: 1px solid rgb(71, 71, 255);
+      
+    }
+    
+    .tick-img{
+      background: url("images/Group\ 147609.jpg");
+      background-repeat: no-repeat ;
+    }
+ 
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <nav></nav>
+  </header>
+
+  <section>
+    <aside class="aside"></aside>
+    <main class="main">
+      <div class="main-container">
+        <h2>Replace card</h2>
+        <hr />
+
+        <div class="card-container">
+          <div class="card-change">
+            <div class="existing-card">
+              <h3>Replace with existing image card</h3>
+              <img src="images/Group 153423-1.png" alt="image" />
+            </div>
+            <div class="replace-card">
+              <h3>Replace with original card</h3>
+              <img src="images/Group 153423-2.png" alt="image" />
+            </div>
+          </div>
+
+          <div class="personalise-card">
+            <h3>Personalise your card</h3>
+            <div class="filter-tab">
+              <button class="btn active" id="all" data-filter="all"> All </button>
+              <button class="btn" id="art" data-filter="art"> Art </button>
+              <button class="btn" id="abstract" data-filter="abstract"> Abstract </button>
+              <button class="btn" id="architecture" data-filter="architecture"> Architecture </button>
+              <button class="btn" id="people" data-filter="people"> People </button>
+              <button class="btn" id="sports" data-filter="sports"> Sports </button>
+              <button class="btn" id="travel" data-filter="travel"> Travel </button>
+            </div>
+
+            <div class="all-card " id="cardId">
+
+            </div>
+          </div>
+        </div>
+
+        <div class="proceed-tab">
+          <a href=""> <i class="bx bx-arrow-back"></i> Back</a>
+          <button onclick="showimagedata()">Proceed</button>
+        </div>
+      </div>
+    </main>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+              <div class="img-div" data-item="art "  id="imgid">
+                <img src="images/Group 153423-1.png" class="img" id="img1" />
+              </div>
+
+              <div class="img-div" data-item="travel" id="imgid">
+                <img src="images/Group 153423.png" class="img" id="img2" />
+              </div>
+
+              <div class="img-div" data-item="sports" id="imgid">
+                <img src="images/Group 153428-2.png" class="img" id="img3" />
+              </div>
+
+              <div class="img-div" data-item="people" id="imgid">
+                <img src="images/Group 153428.png" class="img" id="img4" />
+              </div>
+
+              <div class="img-div" data-item="abstract" id="imgid">
+                <img src="images/Group 153428-2.png" class="img" id="img5" />
+              </div>
+
+              <div class="img-div" data-item="art" id="imgid">
+                <img src="images/Group 153428-2.png" class="img" id="img6" />
+              </div>
+
+              <div class="img-div" data-item="architecture" id="imgid">
+                <img src="images/Group 153429.png" class="img" id="img7" />
+              </div>
+
+              <div class="img-div" data-item="sports" id="imgid"> 
+                <img src="images/Group 153429-1.png" class="img" id="img8" />
+              </div> -->
